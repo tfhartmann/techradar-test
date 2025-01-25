@@ -126,6 +126,25 @@
     {
       "timeline": [
         {
+          "ringId": "adopt",
+          "date": "2020-08-06T00:00:00.000Z",
+          "description": "Conventional Commits is a specification for adding human and machine readable meaning to commit messages."
+        }
+      ],
+      "key": "conventional-commits",
+      "id": "conventional-commits",
+      "title": "Conventional Commits",
+      "quadrant": "process",
+      "links": [
+        {
+          "url": "https://www.conventionalcommits.org/",
+          "title": "Learn more"
+        }
+      ]
+    },
+    {
+      "timeline": [
+        {
           "ringId": "hold",
           "date": "2020-08-06T00:00:00.000Z"
         }
