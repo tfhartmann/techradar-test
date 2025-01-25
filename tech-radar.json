@@ -152,6 +152,24 @@
     {
       "timeline": [
         {
+          "ringId": "adopt",
+          "date": "2020-08-06T00:00:00.000Z",
+          "description": "GitOps is a set of practices for managing infrastructure and application configurations to expand upon existing processes and improve the application lifecycle."
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.redhat.com/en/topics/devops/what-is-gitops",
+          "title": "Learn more"
+        }
+      ],
+      "key": "gitops",
+      "id": "gitops",
+      "title": "GitOps",
+      "quadrant": "process"
+    },
+      "timeline": [
+        {
           "ringId": "hold",
           "date": "2020-08-06T00:00:00.000Z"
         }
@@ -224,13 +242,13 @@
       ],
       "links": [
         {
-          "url": "https://www.terraform.io/",
+          "url": "https://cloud.google.com/kubernetes-engine/docs/concepts/autopilot-overview",
           "title": "Learn more"
         }
       ],
-      "key": "terraform",
-      "id": "terraform",
-      "title": "Terraform",
+      "key": "gke-autopilot",
+      "id": "gke-autopilot",
+      "title": "GKE Autopilot",
       "quadrant": "infrastructure"
     },
     {
