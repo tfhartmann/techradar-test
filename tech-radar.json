@@ -201,6 +201,13 @@
         "name": "HOLD",
         "color": "#E09B96",
         "description": "Esse mollitia in."
+      },
+      {
+        "id": "bar",
+        "name": "BAR",
+        "color": "#E09B96",
+        "description": "Esse mollitia in."
       }
+
     ]
   }
