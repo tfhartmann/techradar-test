@@ -168,17 +168,6 @@
       "title": "GitOps",
       "quadrant": "process"
     },
-      "timeline": [
-        {
-          "ringId": "hold",
-          "date": "2020-08-06T00:00:00.000Z"
-        }
-      ],
-      "key": "force-push",
-      "id": "force-push",
-      "title": "Force push to master",
-      "quadrant": "process"
-    },
     {
       "timeline": [
         {
