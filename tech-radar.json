@@ -1,31 +1,6 @@
+
 {
   "entries": [
-    {
-      "timeline": [
-        {
-          "moved": 0,
-          "ringId": "adopt",
-          "date": "2024-01-06T00:00:00.000Z",
-          "description": "Alaric is the best"
-        }
-      ],
-      "key": "alaric",
-      "id": "alaric",
-      "title": "Alaric",
-      "quadrant": "languages",
-      "links": [
-        {
-          "url": "https://ob3y.com/",
-          "title": "Learn more"
-        },
-        {
-          "url": "https://www.typescriptlang.org/",
-          "title": "TypeScript"
-        }
-      ],
-      "description": "Excepteur **sint** occaecat *cupidatat* non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\n```ts\nconst x = \"3\";\n```\n"
-    },
-
     {
       "timeline": [
         {
@@ -54,37 +29,42 @@
     {
       "timeline": [
         {
-          "moved": -1,
+          "moved": 0,
           "ringId": "adopt",
           "date": "2020-08-06T00:00:00.000Z",
-          "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+        }
+      ],
+      "key": "python",
+      "id": "python",
+      "title": "Python",
+      "quadrant": "languages",
+      "links": [
+        {
+          "url": "https://www.python.org/",
+          "title": "Learn more"
+        },
+        {
+          "url": "https://docs.python.org/3/",
+          "title": "Python Documentation"
+        }
+      ],
+      "description": "Excepteur **sint** occaecat *cupidatat* non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\n```python\nx = 3\n```\n"
+    },
+    {
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "adopt",
+          "date": "2020-08-06T00:00:00.000Z",
+          "description": ""
         }
       ],
       "key": "typescript",
       "id": "typescript",
       "title": "TypeScript",
       "quadrant": "languages",
-      "description": "Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat"
-    },
-    {
-      "timeline": [
-        {
-          "moved": 1,
-          "ringId": "adopt",
-          "date": "2020-08-06T00:00:00.000Z",
-          "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
-        }
-      ],
-      "links": [
-        {
-          "url": "https://webpack.js.org/",
-          "title": "Learn more"
-        }
-      ],
-      "key": "webpack",
-      "id": "webpack",
-      "title": "Webpack",
-      "quadrant": "frameworks"
+      "description": "TypeScript (abbreviated as TS) is a free and open-source high-level programming language developed by Microsoft that adds static typing with optional type annotations to JavaScript."
     },
     {
       "timeline": [
@@ -156,31 +136,163 @@
       "title": "Force push to master",
       "quadrant": "process"
     },
-    {
-      "timeline": [
         {
-          "ringId": "adopt",
-          "date": "2020-08-06T00:00:00.000Z",
-          "description": "long description"
+          "timeline": [
+            {
+              "ringId": "adopt",
+              "date": "2020-08-06T00:00:00.000Z",
+              "description": "long description"
+            },
+            {
+              "ringId": "trial",
+              "date": "2020-07-05T00:00:00.000Z",
+              "description": "long description"
+            }
+          ],
+          "links": [
+            {
+              "url": "https://github.com",
+              "title": "Learn more"
+            }
+          ],
+          "key": "github-actions",
+          "id": "github-actions",
+          "title": "GitHub Actions",
+          "quadrant": "infrastructure"
         },
         {
-          "ringId": "trial",
-          "date": "2020-07-05T00:00:00.000Z",
-          "description": "long description"
-        }
-      ],
-      "links": [
+          "timeline": [
+            {
+              "ringId": "adopt",
+              "date": "2020-08-06T00:00:00.000Z",
+              "description": "long description"
+            }
+          ],
+          "links": [
+            {
+              "url": "https://www.terraform.io/",
+              "title": "Learn more"
+            }
+          ],
+          "key": "terraform",
+          "id": "terraform",
+          "title": "Terraform",
+          "quadrant": "infrastructure"
+        },
         {
-          "url": "https://github.com",
-          "title": "Learn more"
-        }
-      ],
-      "key": "github-actions",
-      "id": "github-actions",
-      "title": "GitHub Actions",
-      "quadrant": "infrastructure"
-    }
-  ],
+          "timeline": [
+            {
+              "ringId": "adopt",
+              "date": "2020-08-06T00:00:00.000Z",
+              "description": "long description"
+            }
+          ],
+          "links": [
+            {
+              "url": "https://www.ansible.com/",
+              "title": "Learn more"
+            }
+          ],
+          "key": "ansible",
+          "id": "ansible",
+          "title": "Ansible",
+          "quadrant": "infrastructure"
+        },
+        {
+          "timeline": [
+            {
+              "ringId": "adopt",
+              "date": "2020-08-06T00:00:00.000Z",
+              "description": "long description"
+            }
+          ],
+          "links": [
+            {
+              "url": "https://puppet.com/",
+              "title": "Learn more"
+            }
+          ],
+          "key": "puppet",
+          "id": "puppet",
+          "title": "Puppet",
+          "quadrant": "infrastructure"
+        },
+        {
+          "timeline": [
+            {
+              "ringId": "adopt",
+              "date": "2020-08-06T00:00:00.000Z",
+              "description": "long description"
+            }
+          ],
+          "links": [
+            {
+              "url": "https://cloud.google.com/",
+              "title": "Learn more"
+            }
+          ],
+          "key": "gcp",
+          "id": "gcp",
+          "title": "Google Cloud Platform",
+          "quadrant": "infrastructure"
+        },
+        {
+          "timeline": [
+            {
+              "ringId": "adopt",
+              "date": "2020-08-06T00:00:00.000Z",
+              "description": "long description"
+            }
+          ],
+          "links": [
+            {
+              "url": "https://cloud.google.com/cloud-build",
+              "title": "Learn more"
+            }
+          ],
+          "key": "cloud-build",
+          "id": "cloud-build",
+          "title": "Cloud Build",
+          "quadrant": "infrastructure"
+        },
+        {
+          "timeline": [
+            {
+              "ringId": "adopt",
+              "date": "2020-08-06T00:00:00.000Z",
+              "description": "long description"
+            }
+          ],
+          "links": [
+            {
+              "url": "https://www.docker.com/",
+              "title": "Learn more"
+            }
+          ],
+          "key": "docker",
+          "id": "docker",
+          "title": "Docker",
+          "quadrant": "infrastructure"
+        },
+        {
+          "timeline": [
+            {
+              "ringId": "adopt",
+              "date": "2020-08-06T00:00:00.000Z",
+              "description": "long description"
+            }
+          ],
+          "links": [
+            {
+              "url": "https://podman.io/",
+              "title": "Learn more"
+            }
+          ],
+          "key": "podman",
+          "id": "podman",
+          "title": "Podman",
+          "quadrant": "infrastructure"
+        } ],
   "quadrants": [
     {
       "id": "infrastructure",
@@ -225,12 +337,6 @@
     {
       "id": "hold",
       "name": "HOLD",
-      "color": "#E09B96",
-      "description": "Esse mollitia in."
-    },
-    {
-      "id": "bar",
-      "name": "BAR",
       "color": "#E09B96",
       "description": "Esse mollitia in."
     }
