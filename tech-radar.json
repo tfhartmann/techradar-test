@@ -309,10 +309,6 @@
     {
       "id": "process",
       "name": "Process"
-    },
-    {
-      "id": "foo",
-      "name": "Foo"
     }
   ],
   "rings": [
