@@ -1,4 +1,3 @@
-
 {
   "entries": [
     {
@@ -102,6 +101,32 @@
       "timeline": [
         {
           "moved": 0,
+          "ringId": "adopt",
+          "date": "2020-08-06T00:00:00.000Z"
+        }
+      ],
+      "key": "itil-change-management",
+      "id": "itil-change-management",
+      "title": "ITIL Change Management",
+      "quadrant": "process"
+    },
+    {
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "adopt",
+          "date": "2020-08-06T00:00:00.000Z"
+        }
+      ],
+      "key": "agile-methodology",
+      "id": "agile-methodology",
+      "title": "Agile Methodology",
+      "quadrant": "process"
+    },
+    {
+      "timeline": [
+        {
+          "moved": 0,
           "ringId": "assess",
           "date": "2020-08-06T00:00:00.000Z"
         }
@@ -136,163 +161,231 @@
       "title": "Force push to master",
       "quadrant": "process"
     },
+    {
+      "timeline": [
         {
-          "timeline": [
-            {
-              "ringId": "adopt",
-              "date": "2020-08-06T00:00:00.000Z",
-              "description": "long description"
-            },
-            {
-              "ringId": "trial",
-              "date": "2020-07-05T00:00:00.000Z",
-              "description": "long description"
-            }
-          ],
-          "links": [
-            {
-              "url": "https://github.com",
-              "title": "Learn more"
-            }
-          ],
-          "key": "github-actions",
-          "id": "github-actions",
-          "title": "GitHub Actions",
-          "quadrant": "infrastructure"
+          "ringId": "hold",
+          "date": "2020-08-06T00:00:00.000Z"
+        }
+      ],
+      "links": [
+
+      ],
+      "key": "bitsdb",
+      "id": "bitsdb",
+      "title": "BitsDB",
+      "quadrant": "infrastructure"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "trial",
+          "date": "2020-08-06T00:00:00.000Z"
+        }
+      ],
+      "links": [
+      ],
+      "key": "gaia",
+      "id": "gaia",
+      "title": "Gaia",
+      "quadrant": "infrastructure"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "adopt",
+          "date": "2020-08-06T00:00:00.000Z",
+          "description": "long description"
         },
         {
-          "timeline": [
-            {
-              "ringId": "adopt",
-              "date": "2020-08-06T00:00:00.000Z",
-              "description": "long description"
-            }
-          ],
-          "links": [
-            {
-              "url": "https://www.terraform.io/",
-              "title": "Learn more"
-            }
-          ],
-          "key": "terraform",
-          "id": "terraform",
-          "title": "Terraform",
-          "quadrant": "infrastructure"
-        },
+          "ringId": "trial",
+          "date": "2020-07-05T00:00:00.000Z",
+          "description": "long description"
+        }
+      ],
+      "links": [
         {
-          "timeline": [
-            {
-              "ringId": "adopt",
-              "date": "2020-08-06T00:00:00.000Z",
-              "description": "long description"
-            }
-          ],
-          "links": [
-            {
-              "url": "https://www.ansible.com/",
-              "title": "Learn more"
-            }
-          ],
-          "key": "ansible",
-          "id": "ansible",
-          "title": "Ansible",
-          "quadrant": "infrastructure"
-        },
+          "url": "https://github.com",
+          "title": "Learn more"
+        }
+      ],
+      "key": "github-actions",
+      "id": "github-actions",
+      "title": "GitHub Actions",
+      "quadrant": "infrastructure"
+    },
+    {
+      "timeline": [
         {
-          "timeline": [
-            {
-              "ringId": "adopt",
-              "date": "2020-08-06T00:00:00.000Z",
-              "description": "long description"
-            }
-          ],
-          "links": [
-            {
-              "url": "https://puppet.com/",
-              "title": "Learn more"
-            }
-          ],
-          "key": "puppet",
-          "id": "puppet",
-          "title": "Puppet",
-          "quadrant": "infrastructure"
-        },
+          "ringId": "adopt",
+          "date": "2020-08-06T00:00:00.000Z",
+          "description": "long description"
+        }
+      ],
+      "links": [
         {
-          "timeline": [
-            {
-              "ringId": "adopt",
-              "date": "2020-08-06T00:00:00.000Z",
-              "description": "long description"
-            }
-          ],
-          "links": [
-            {
-              "url": "https://cloud.google.com/",
-              "title": "Learn more"
-            }
-          ],
-          "key": "gcp",
-          "id": "gcp",
-          "title": "Google Cloud Platform",
-          "quadrant": "infrastructure"
-        },
+          "url": "https://www.terraform.io/",
+          "title": "Learn more"
+        }
+      ],
+      "key": "terraform",
+      "id": "terraform",
+      "title": "Terraform",
+      "quadrant": "infrastructure"
+    },
+    {
+      "timeline": [
         {
-          "timeline": [
-            {
-              "ringId": "adopt",
-              "date": "2020-08-06T00:00:00.000Z",
-              "description": "long description"
-            }
-          ],
-          "links": [
-            {
-              "url": "https://cloud.google.com/cloud-build",
-              "title": "Learn more"
-            }
-          ],
-          "key": "cloud-build",
-          "id": "cloud-build",
-          "title": "Cloud Build",
-          "quadrant": "infrastructure"
-        },
+          "ringId": "adopt",
+          "date": "2020-08-06T00:00:00.000Z",
+          "description": "long description"
+        }
+      ],
+      "links": [
         {
-          "timeline": [
-            {
-              "ringId": "adopt",
-              "date": "2020-08-06T00:00:00.000Z",
-              "description": "long description"
-            }
-          ],
-          "links": [
-            {
-              "url": "https://www.docker.com/",
-              "title": "Learn more"
-            }
-          ],
-          "key": "docker",
-          "id": "docker",
-          "title": "Docker",
-          "quadrant": "infrastructure"
-        },
+          "url": "https://www.ansible.com/",
+          "title": "Learn more"
+        }
+      ],
+      "key": "ansible",
+      "id": "ansible",
+      "title": "Ansible",
+      "quadrant": "infrastructure"
+    },
+    {
+      "timeline": [
         {
-          "timeline": [
-            {
-              "ringId": "adopt",
-              "date": "2020-08-06T00:00:00.000Z",
-              "description": "long description"
-            }
-          ],
-          "links": [
-            {
-              "url": "https://podman.io/",
-              "title": "Learn more"
-            }
-          ],
-          "key": "podman",
-          "id": "podman",
-          "title": "Podman",
-          "quadrant": "infrastructure"
-        } ],
+          "ringId": "adopt",
+          "date": "2020-08-06T00:00:00.000Z",
+          "description": "long description"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://puppet.com/",
+          "title": "Learn more"
+        }
+      ],
+      "key": "puppet",
+      "id": "puppet",
+      "title": "Puppet",
+      "quadrant": "infrastructure"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "adopt",
+          "date": "2020-08-06T00:00:00.000Z",
+          "description": "long description"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://cloud.google.com/",
+          "title": "Learn more"
+        }
+      ],
+      "key": "gcp",
+      "id": "gcp",
+      "title": "Google Cloud Platform",
+      "quadrant": "infrastructure"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "adopt",
+          "date": "2020-08-06T00:00:00.000Z",
+          "description": "long description"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://cloud.google.com/cloud-build",
+          "title": "Learn more"
+        }
+      ],
+      "key": "cloud-build",
+      "id": "cloud-build",
+      "title": "Cloud Build",
+      "quadrant": "infrastructure"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "adopt",
+          "date": "2020-08-06T00:00:00.000Z",
+          "description": "Slurm is a workload manager currently used on the HPC cluster."
+        }
+      ],
+      "links": [
+        {
+          "url": "https://slurm.schedmd.com/",
+          "title": "Learn more"
+        }
+      ],
+      "key": "slurm",
+      "id": "slurm",
+      "title": "Slurm",
+      "quadrant": "infrastructure"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "adopt",
+          "date": "2020-08-06T00:00:00.000Z",
+          "description": "Grid Engine is the workload manager currently used on UGER."
+        }
+      ],
+      "links": [
+        {
+          "url": "https://altair.com/grid-engine",
+          "title": "Learn more"
+        }
+      ],
+      "key": "gridengine",
+      "id": "gridengine",
+      "title": "Grid Engine",
+      "quadrant": "infrastructure"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "adopt",
+          "date": "2020-08-06T00:00:00.000Z",
+          "description": "long description"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.docker.com/",
+          "title": "Learn more"
+        }
+      ],
+      "key": "docker",
+      "id": "docker",
+      "title": "Docker",
+      "quadrant": "infrastructure"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "adopt",
+          "date": "2020-08-06T00:00:00.000Z",
+          "description": "long description"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://podman.io/",
+          "title": "Learn more"
+        }
+      ],
+      "key": "podman",
+      "id": "podman",
+      "title": "Podman",
+      "quadrant": "infrastructure"
+    }
+  ],
   "quadrants": [
     {
       "id": "infrastructure",
@@ -316,25 +409,31 @@
       "id": "adopt",
       "name": "ADOPT",
       "color": "#5BA300",
-      "description": "Commodi accusantium culpa sed itaque excepturi rem eum nulla possimus."
+      "description": "This technology is recommended for use. We have had positive experiences with it and it has proven to be stable and effective."
     },
     {
       "id": "trial",
       "name": "TRIAL",
       "color": "#009EB0",
-      "description": "Recusandae possimus ipsum dolores."
+      "description": "This technology is being trialed to understand its potential and limitations. This technology may be in use in some projects, though it is not yet widely adopted."
     },
     {
       "id": "assess",
       "name": "ASSESS",
       "color": "#C7BA00",
-      "description": "In asperiores repellat error recusandae et adipisci laborum porro."
+      "description": "This technology is worth exploring with the goal of understanding how it will affect our projects."
     },
     {
       "id": "hold",
       "name": "HOLD",
       "color": "#E09B96",
-      "description": "Esse mollitia in."
+      "description": "This technology is not recommended to be used in new projects."
+    },
+    {
+      "id": "deprecated",
+      "name": "DEPRECATED",
+      "color": "#FF0000",
+      "description": "This technology is deprecated and should not be used in new projects."
     }
   ]
 }
